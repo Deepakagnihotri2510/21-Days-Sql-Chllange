@@ -21,22 +21,104 @@ Feel free to connect with me on LinkedIn to follow my progress and learn along:
 [LinkedIn](https://www.linkedin.com/in/deepakagnihotri2510)
 
 ## Daily Learning Updates
-Below are the daily updates on what I learned and accomplished throughout the challenge:
-<details>
-<summary>Click to expand/collapse the full 21-day log</summary>
-
-| Day | Date | Topic / Problem | Solution File | Status |
-| :---: | :---: | :--- | :--- | :---: |
-| Day 01 | [Date] | Introduction to `SELECT` | [Solution](./Day_01/solution.sql) | ✅ |
-| Day 02 | [Date] | Filtering with `WHERE` | [Solution](./Day_02/solution.sql) | ✅ |
-| Day 03 | [Date] | `JOIN`s (Inner, Left, Right) | [Link to File] | ⏳ |
-| Day 04 | [Date] | [Topic] | [Link to File] | ... |
-| ... | ... | ... | ... | ... |
-| Day 21 | [Date] | [Topic] | [Link to File] | ... |
-
-</details>
+### 📅 Day 1: Introduction to SQL Basics  
+**Topics Covered:**  
+- Basic `SELECT` statements  
+- Column selection  
+- Viewing data structure  
+- Using `DISTINCT` for unique results  
 
 ---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Retrieve all columns from the `patients` table.  
+
+2️⃣ Select only the `patient_id`, `name`, and `age` columns from the `patients` table.  
+
+3️⃣ Display the first 10 records from the `services_weekly` table.  
+
+4️⃣ List all unique hospital services available in the hospital.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned the fundamentals of SQL data retrieval using the `SELECT` statement.  
+I practiced viewing all data, selecting specific columns, and identifying unique values from a table.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 1 Completed** – Basic Data Retrieval  
+🔜 **Next Up:** `WHERE` clause and conditional filtering  
+
+---
+### 📅 Day 2: Filtering Data with WHERE Clause  
+**Topics Covered:**  
+- `WHERE` clause for filtering data  
+- Comparison operators (`>`, `<`, `=`, `!=`)  
+- Basic conditional filtering  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Find all patients who are older than 60 years.  
+
+2️⃣ Retrieve all staff members who work in the 'Emergency' service.  
+
+3️⃣ List all weeks where more than 100 patients requested admission in any service.  
+
+4️⃣ Find all patients admitted to 'Surgery' service with a satisfaction score below 70, showing their patient_id, name, age, and satisfaction score.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to apply the `WHERE` clause to filter data based on specific conditions.  
+I also explored comparison operators and practiced combining multiple conditions for more precise queries.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 2 Completed** – Filtering Data with `WHERE`  
+🔜 **Next Up:** `ORDER BY`, sorting results in ascending and descending order  
+
+---
+
+### 📅 Day 3: Sorting Data with ORDER BY  
+**Topics Covered:**  
+- `ORDER BY` clause for sorting results  
+- Sorting in ascending (`ASC`) and descending (`DESC`) order  
+- Sorting by multiple columns  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ List all patients sorted by age in descending order.  
+
+2️⃣ Show all `services_weekly` data sorted by week number ascending and `patients_request` descending.  
+
+3️⃣ Display staff members sorted alphabetically by their names.  
+
+4️⃣ Retrieve the top 5 weeks with the highest patient refusals across all services, showing `week`, `service`, `patients_refused`, and `patients_request`. Sort by `patients_refused` in descending order.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to organize query results using the `ORDER BY` clause.  
+I explored sorting data in both ascending and descending order, and practiced sorting by multiple columns to generate more meaningful insights.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 3 Completed** – Sorting and Organizing Data  
+🔜 **Next Up:** Working with `LIMIT`, `DISTINCT`, and aggregate functions like `COUNT()` and `SUM()`  
+
+---
+
+**#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
+
 
 
 ## How to Use This Repository
