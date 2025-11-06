@@ -115,6 +115,39 @@ I explored sorting data in both ascending and descending order, and practiced so
 ✅ **Day 3 Completed** – Sorting and Organizing Data  
 🔜 **Next Up:** Working with `LIMIT`, `DISTINCT`, and aggregate functions like `COUNT()` and `SUM()`  
 
+--- 
+
+### 📅 Day 4: Data Limiting and Pagination  
+**Topics Covered:**  
+- Using `LIMIT` to restrict result rows  
+- Applying `OFFSET` for data pagination  
+- Combining `LIMIT` and `OFFSET` for range-based queries  
+- Retrieving top or recent records  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Display the first 5 patients from the `patients` table.  
+
+2️⃣ Show patients 11–20 using `OFFSET`.  
+
+3️⃣ Get the 10 most recent patient admissions based on `arrival_date`.  
+
+4️⃣ Find the 3rd to 7th highest patient satisfaction scores from the `patients` table, showing `patient_id`, `name`, `service`, and `satisfaction`. Display only these 5 records.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to limit the number of records returned in SQL queries using the `LIMIT` clause.  
+I also explored how `OFFSET` helps in implementing pagination to view specific record ranges — a key concept for handling large datasets efficiently.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 4 Completed** – Understanding `LIMIT` and `OFFSET`  
+🔜 **Next Up:** Using `GROUP BY` and `HAVING` for data aggregation and filtering grouped results  
+
 ---
 
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
