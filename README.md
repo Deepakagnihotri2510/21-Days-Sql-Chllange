@@ -150,6 +150,41 @@ I also explored how `OFFSET` helps in implementing pagination to view specific r
 
 ---
 
+### 📅 Day 5: Aggregate Functions (COUNT, SUM, AVG, MIN, MAX)  
+**Topics Covered:**  
+- Using aggregate functions for data analysis  
+- `COUNT()` for counting records  
+- `SUM()` for total calculations  
+- `AVG()` for finding averages  
+- `MIN()` and `MAX()` for identifying range values  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Count the total number of patients in the hospital.  
+
+2️⃣ Calculate the average satisfaction score of all patients.  
+
+3️⃣ Find the minimum and maximum age of patients.  
+
+4️⃣ Calculate the total number of patients admitted, total patients refused, and the average patient satisfaction across all services and weeks. Round the average satisfaction to 2 decimal places.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to summarize and analyze data using SQL aggregate functions like `COUNT`, `SUM`, `AVG`, `MIN`, and `MAX`.  
+These functions helped me extract meaningful insights such as totals, averages, and ranges from large datasets efficiently.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 5 Completed** – Understanding SQL Aggregate Functions  
+🔜 **Next Up:** Grouping data using `GROUP BY` and filtering with `HAVING`  
+
+---
+
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 
