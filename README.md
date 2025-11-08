@@ -185,6 +185,41 @@ These functions helped me extract meaningful insights such as totals, averages, 
 ---
 
 
+### 📅 Day 6: Grouping and Aggregating Data  
+**Topics Covered:**  
+- Using `GROUP BY` to aggregate data by categories  
+- Applying aggregate functions with grouping  
+- Summarizing data for meaningful insights  
+- Sorting grouped results for better analysis  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Count the number of patients by each service.  
+
+2️⃣ Calculate the average age of patients grouped by service.  
+
+3️⃣ Find the total number of staff members per role.  
+
+4️⃣ For each hospital service, calculate the total number of patients admitted, total patients refused, and the admission rate (percentage of requests that were admitted). Order by admission rate descending.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to use the `GROUP BY` clause to organize and analyze data by categories.  
+I practiced combining aggregate functions like `COUNT`, `SUM`, and `AVG` with `GROUP BY` to generate service-wise and role-based summaries.  
+Sorting the grouped results helped in identifying top-performing categories based on key metrics.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 6 Completed** – Mastering Data Grouping and Aggregation  
+🔜 **Next Up:** Filtering grouped results using `HAVING` and combining tables with `JOIN`  
+
+---
+
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 
