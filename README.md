@@ -219,6 +219,41 @@ Sorting the grouped results helped in identifying top-performing categories base
 
 ---
 
+### 📅 Day 7: Filtering Aggregated Results with HAVING Clause  
+**Topics Covered:**  
+- Understanding the `HAVING` clause for filtering grouped data  
+- Difference between `WHERE` and `HAVING`  
+- Applying conditions on aggregate functions  
+- Combining `GROUP BY` with `HAVING` for advanced data insights  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Find services that have admitted more than 500 patients in total.  
+
+2️⃣ Show services where average patient satisfaction is below 75.  
+
+3️⃣ List weeks where total staff presence across all services was less than 50.  
+
+4️⃣ Identify services that refused more than 100 patients in total and had an average patient satisfaction below 80. Show service name, total refused, and average satisfaction.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to filter grouped data using the `HAVING` clause — a powerful extension of `GROUP BY`.  
+Unlike `WHERE`, which filters rows before aggregation, `HAVING` allows filtering after applying aggregate functions.  
+This helped me understand how to derive meaningful business insights from summarized data.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 7 Completed** – Filtering Aggregated Data with `HAVING`  
+🔜 **Next Up:** Exploring `JOIN` operations to combine data from multiple tables  
+
+---
+
+
 
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
