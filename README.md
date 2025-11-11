@@ -288,6 +288,39 @@ Combining these with conditional logic helped me generate detailed and readable 
 
 ---
 
+### 📅 Day 9: Working with Date and Time Functions  
+**Topics Covered:**  
+- Using SQL `DATE` functions for date handling  
+- Performing date arithmetic (adding or subtracting dates)  
+- Extracting parts of a date using `EXTRACT()`  
+- Calculating durations and averages based on dates  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Extract the year from all patient arrival dates.  
+
+2️⃣ Calculate the length of stay for each patient (`departure_date - arrival_date`).  
+
+3️⃣ Find all patients who arrived in a specific month.  
+
+4️⃣ Calculate the average length of stay (in days) for each service, showing only services where the average stay is more than 7 days. Also show the count of patients and order by average stay descending.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to manage and analyze date-related data using SQL date functions.  
+I explored how to extract date parts, calculate durations like patient stay lengths, and perform date-based filtering.  
+Understanding these functions is essential for time-based analytics and performance tracking in real-world datasets.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 9 Completed** – Mastering Date and Time Functions  
+🔜 **Next Up:** Exploring `JOIN` operations to combine and analyze data across multiple tables  
+
+---
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 
