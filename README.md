@@ -321,6 +321,45 @@ Understanding these functions is essential for time-based analytics and performa
 🔜 **Next Up:** Exploring `JOIN` operations to combine and analyze data across multiple tables  
 
 ---
+
+### 📅 Day 10: Conditional Logic with CASE WHEN  
+**Topics Covered:**  
+- Using `CASE WHEN` for conditional logic in SQL  
+- Creating derived and categorized columns  
+- Applying multiple conditions in a single query  
+- Enhancing data readability with categorized outputs  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Categorize patients as **'High'**, **'Medium'**, or **'Low'** satisfaction based on their scores.  
+
+2️⃣ Label staff roles as **'Medical'** or **'Support'** based on role type.  
+
+3️⃣ Create age groups for patients (**0–18**, **19–40**, **41–65**, **65+**).  
+
+4️⃣ Create a service performance report showing `service name`, total patients admitted, and a performance category based on the following:  
+   - **'Excellent'** if average satisfaction ≥ 85  
+   - **'Good'** if average satisfaction ≥ 75  
+   - **'Fair'** if average satisfaction ≥ 65  
+   - **Otherwise:** 'Needs Improvement'  
+   Order the results by average satisfaction descending.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to use the `CASE WHEN` statement to add logic and decision-making inside SQL queries.  
+By creating derived columns and categorizing data dynamically, I was able to make reports more insightful and easier to interpret.  
+This concept is especially useful in analytics dashboards and performance-based reporting.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 10 Completed** – Conditional Logic and Derived Columns  
+🔜 **Next Up:** Mastering `JOIN` operations to combine data from multiple related tables  
+
+---
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 
