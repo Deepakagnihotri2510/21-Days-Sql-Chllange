@@ -360,6 +360,41 @@ This concept is especially useful in analytics dashboards and performance-based 
 🔜 **Next Up:** Mastering `JOIN` operations to combine data from multiple related tables  
 
 ---
+
+
+### 📅 Day 11: Using DISTINCT to Remove Duplicates and Find Unique Values  
+**Topics Covered:**  
+- Understanding the `DISTINCT` keyword  
+- Removing duplicate records from query results  
+- Extracting unique values from one or more columns  
+- Counting distinct combinations for data insights  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ List all unique services in the `patients` table.  
+
+2️⃣ Find all unique staff roles in the hospital.  
+
+3️⃣ Get distinct months from the `services_weekly` table.  
+
+4️⃣ Find all unique combinations of `service` and `event_type` from the `services_weekly` table where events are not null or none, along with the count of occurrences for each combination. Order by count descending.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to use the `DISTINCT` keyword to eliminate duplicate records and retrieve unique data entries.  
+I also explored how to apply `DISTINCT` on multiple columns and combine it with aggregate functions to analyze unique category counts effectively.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 11 Completed** – Extracting Unique and Distinct Data  
+🔜 **Next Up:** Learning about SQL `JOIN` operations to combine related tables for deeper analysis  
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 
