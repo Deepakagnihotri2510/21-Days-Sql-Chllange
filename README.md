@@ -395,6 +395,46 @@ I also explored how to apply `DISTINCT` on multiple columns and combine it with 
 
 ---
 
+### 📅 Day 12: Handling NULL Values in SQL  
+**Topics Covered:**  
+- Understanding `NULL` and missing data  
+- Using `IS NULL` and `IS NOT NULL`  
+- Replacing nulls with default values using `COALESCE()`  
+- Analyzing datasets with and without null values  
+
+---
+
+### 🧩 Practice Questions Solved  
+
+1️⃣ Find all weeks in `services_weekly` where no special event occurred.  
+
+2️⃣ Count how many records have null or empty event values.  
+
+3️⃣ List all services that had at least one week with a special event.  
+
+4️⃣ Analyze the event impact by comparing weeks with events vs weeks without events.  
+   Show the following:  
+   - Event status (`'With Event'` or `'No Event'`)  
+   - Count of weeks  
+   - Average patient satisfaction  
+   - Average staff morale  
+   Order the results by average patient satisfaction descending.  
+
+---
+
+### 🏁 Today's Reflection  
+Today, I learned how to properly handle missing or incomplete data using SQL null-handling functions.  
+Understanding when to use `IS NULL`, `IS NOT NULL`, and `COALESCE()` is crucial for accurate reporting and data quality checks.  
+This helped me analyze how the presence or absence of events impacts satisfaction and morale metrics.  
+
+---
+
+### 📚 Progress Tracker  
+✅ **Day 12 Completed** – Mastering NULL Handling and Data Cleanup  
+🔜 **Next Up:** Joins and relational data analysis (INNER JOIN, LEFT JOIN, etc.)  
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 
