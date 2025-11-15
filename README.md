@@ -435,8 +435,59 @@ This helped me analyze how the presence or absence of events impacts satisfactio
 
 ---
 
+📅 Day 13: Understanding INNER JOIN & Relational Data
+
+Topics Covered:
+
+Combining data using INNER JOIN
+
+Understanding relationships between tables
+
+Joining patient, staff, and weekly service data
+
+Creating multi-table SQL reports
+
+🧩 Practice Questions Solved
+
+1️⃣ Join patients and staff based on their common service field (show patient and staff working in the same service).
+
+2️⃣ Join services_weekly with staff to display weekly service data along with staff information.
+
+3️⃣ Create a report showing patient details along with the staff assigned to their service.
+
+4️⃣ Generate a comprehensive report showing:
+
+patient_id
+
+patient name
+
+age
+
+service
+
+total number of staff members available in that service
+Only include services with more than 5 staff members, and order by:
+
+staff count (descending)
+
+patient name (ascending)
+
+🏁 Today's Reflection
+
+Today, I understood how SQL JOINs help connect multiple tables and create meaningful combined reports.
+Learning INNER JOIN helped me map real-world relationships like patients → staff → services.
+This made it easier to build detailed and professional data reports using multiple tables efficiently.
+
+📚 Progress Tracker
+
+✅ Day 13 Completed – Mastering INNER JOIN & Relational Table Analysis
+🔜 Next Up: More advanced joins and multi-table queries
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
+---
 
 
 ## How to Use This Repository
