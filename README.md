@@ -485,6 +485,53 @@ This made it easier to build detailed and professional data reports using multip
 
 ---
 
+📅 Day 14: LEFT JOIN, RIGHT JOIN & Handling Unmatched Records
+
+Topics Covered:
+
+Understanding LEFT JOIN and RIGHT JOIN
+
+Including unmatched rows from one side of a join
+
+Working with incomplete relational data
+
+Generating reports with optional/missing linked records
+
+🧩 Practice Questions Solved
+
+1️⃣ Show all staff members and their schedule information, ensuring staff with no schedule entries are also included.
+
+2️⃣ List all services from services_weekly along with their corresponding staff, showing services even if no staff is assigned.
+
+3️⃣ Display all patients and the weekly statistics of their service (only if those stats exist).
+
+4️⃣ Create a staff utilisation report showing:
+
+staff_id
+
+staff_name
+
+role
+
+service
+
+count of weeks they were present (from staff_schedule)
+Include all staff, even those with zero schedule records.
+Order the results by weeks present (DESC).
+
+🏁 Today's Reflection
+
+Today’s focus was on LEFT JOIN and RIGHT JOIN, which are essential when dealing with incomplete or optional relationships.
+I learned how these joins help ensure all records from one table appear in the output, even when no matching record exists in another table.
+This is extremely useful for real-life reporting — like finding staff without schedules or services without assigned staff.
+
+📚 Progress Tracker
+
+✅ Day 14 Completed – Mastering LEFT & RIGHT JOIN for Unmatched Data
+🔜 Next Up: FULL JOIN, CROSS JOIN, and advanced relational mapping
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 ---
