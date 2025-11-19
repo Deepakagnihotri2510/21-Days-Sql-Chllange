@@ -532,6 +532,54 @@ This is extremely useful for real-life reporting — like finding staff without 
 
 ---
 
+📅 Day 15: Multi-Table JOINs & Advanced Relationship Mapping
+
+Topics Covered:
+
+Joining 3 or more tables
+
+Combining patient, staff, and schedule data
+
+Creating detailed multi-table analytical reports
+
+Understanding complex relational structures in SQL
+
+🧩 Practice Questions Solved
+
+1️⃣ Join patients, staff, and staff_schedule to show patient service along with staff availability.
+
+2️⃣ Combine services_weekly with staff and staff_schedule to perform a complete weekly service analysis.
+
+3️⃣ Create a multi-table patient admission report showing patient details along with the staff associated with their service.
+
+4️⃣ Generate a comprehensive service analysis report for Week 20, showing:
+
+service name
+
+total patients admitted
+
+total patients refused
+
+average patient satisfaction
+
+count of staff assigned to that service
+
+count of staff present that week
+Order results by patients admitted (DESC).
+
+🏁 Today's Reflection
+
+Today I worked with multi-table JOINs, combining 3 or more tables to build deeper analytical insights.
+This helped me understand how data from various sources can be merged to create powerful reports, especially in real-world scenarios like hospital management systems.
+Learning multi-table joins strengthened my understanding of relational models and complex SQL queries.
+
+📚 Progress Tracker
+
+✅ Day 15 Completed – Advanced Multi-Table JOIN Mastery
+🔜 Next Up: FULL JOIN, UNION, and set-based operations
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 ---
