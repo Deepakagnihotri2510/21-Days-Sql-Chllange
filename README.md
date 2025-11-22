@@ -580,6 +580,54 @@ Learning multi-table joins strengthened my understanding of relational models an
 
 ---
 
+📅 Day 16: Subqueries in WHERE Clause & Nested Query Filtering
+
+Topics Covered:
+
+Using subqueries inside the WHERE clause
+
+Nested filtering conditions
+
+Comparing values against aggregated subquery results
+
+Applying multi-level logic for complex data extraction
+
+🧩 Practice Questions Solved
+
+1️⃣ Find patients who belong to services with an above-average staff count.
+
+2️⃣ List staff members who work in services that had any week with patient satisfaction below 70.
+
+3️⃣ Show patients from services where the total admitted patients exceed 1000.
+
+4️⃣ Identify patients admitted to services that meet both:
+
+at least one week had patient refusals, and
+
+the service’s average satisfaction is below the overall hospital average satisfaction
+Show:
+
+patient_id
+
+name
+
+service
+
+personal satisfaction score
+
+🏁 Today's Reflection
+
+Subqueries added a deeper level of logic to SQL today.
+I learned how the WHERE clause can use nested queries to filter data based on aggregated metrics or complex conditions.
+This is extremely useful when comparing values across different tables, computing thresholds, or applying multi-step analytical logic.
+
+📚 Progress Tracker
+
+✅ Day 16 Completed – Mastering Subqueries & Nested Filtering
+🔜 Next Up: Correlated subqueries, EXISTS, and deeper analytical SQL
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 ---
