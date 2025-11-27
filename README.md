@@ -739,7 +739,77 @@ Understanding when to keep duplicates (UNION ALL) vs remove them (UNION) is esse
 
 ---
 
+📅 Day 19: Window Functions – ROW_NUMBER, RANK, DENSE_RANK & OVER()
 
+Topics Covered:
+
+Ranking functions in SQL
+
+Using the OVER() clause
+
+Row-wise analytics without collapsing rows
+
+Partitioning vs non-partitioned windows
+
+Extracting “Top N per group”
+
+📘 Reading Summary
+
+Window functions allow row-level analytics without grouping or losing data.
+They can rank, number, and analyze rows relative to others in the same dataset.
+
+Basic Syntax:
+
+window_function() OVER (
+    [PARTITION BY column]
+    [ORDER BY column]
+)
+
+
+Ranking Functions:
+
+ROW_NUMBER() → unique row numbering
+
+RANK() → ties get same rank, gaps appear
+
+DENSE_RANK() → ties get same rank, no gaps
+
+🧩 Practice Questions Solved
+
+1️⃣ Rank patients by satisfaction within each service.
+2️⃣ Assign a row number to staff ordered alphabetically by name.
+3️⃣ Rank services by total admitted patients.
+
+🔥 Daily Challenge
+
+For each service, rank weeks by patient satisfaction (highest first).
+Show:
+
+service
+
+week
+
+patient_satisfaction
+
+patients_admitted
+
+rank
+
+Include only Top 3 weeks per service.
+
+🏁 Today's Reflection
+
+Window functions are one of the biggest power boosts in SQL.
+Today, I learned how ranking functions help identify top performers, trends, and high-impact rows—without reducing or grouping the data.
+PARTITION BY changed everything—it allowed me to rank within each category independently.
+This is a huge step toward analytical SQL and BI-level querying.
+
+📚 Progress Tracker
+
+✅ Day 19 Completed – Ranking, Row Numbering & Windowed Analytics
+🔜 Next Up: More advanced window functions (LEAD, LAG, MOVING AVERAGES)
+
+---
 
 ## How to Use This Repository
 - Follow each day's folder or file for the respective SQL problems and solutions.
