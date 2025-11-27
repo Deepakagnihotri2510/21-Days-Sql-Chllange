@@ -628,6 +628,59 @@ This is extremely useful when comparing values across different tables, computin
 
 ---
 
+🧠 21 Days of SQL Learning Challenge
+📅 Day 17: Subqueries in SELECT, Derived Tables & Inline Views
+
+Topics Covered:
+
+Subqueries inside the SELECT statement
+
+Creating derived tables for cleaner query structure
+
+Inline views for complex calculations
+
+Using subqueries to enrich row-level output
+
+🧩 Practice Questions Solved
+
+1️⃣ Show each patient along with their service's average satisfaction as an additional column.
+
+2️⃣ Create a derived table (inline view) containing service statistics and query data from it.
+
+3️⃣ Display staff members along with the total patient count of their service as a calculated field.
+
+🔥 Daily Challenge
+
+Create a report showing each service with:
+
+service name
+
+total patients admitted
+
+the difference between their total admissions and the average admissions across all services
+
+a rank indicator based on performance:
+
+'Above Average'
+
+'Average'
+
+'Below Average'
+Order the results by total patients admitted (DESC).
+
+🏁 Today's Reflection
+
+Today I learned how powerful subqueries in SELECT can be when enriching rows with computed, aggregated, or derived data.
+Derived tables and inline views also helped simplify complex logic and make large queries more readable.
+This is extremely useful for analytics-focused SQL, where comparisons and rankings are frequently needed.
+
+📚 Progress Tracker
+
+✅ Day 17 Completed – Subqueries in SELECT & Derived Table Mastery
+🔜 Next Up: Window functions, ranking, and analytic SQL
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 ---
