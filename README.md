@@ -681,9 +681,64 @@ This is extremely useful for analytics-focused SQL, where comparisons and rankin
 
 ---
 
+📅 Day 18: UNION, UNION ALL & Combining Result Sets
+
+Topics Covered:
+
+Merging multiple query outputs
+
+Understanding differences between UNION and UNION ALL
+
+Removing duplicates vs keeping duplicates
+
+Combining patients and staff data into unified views
+
+🧩 Practice Questions Solved
+
+1️⃣ Combine patient names and staff names into a single merged list using UNION.
+
+2️⃣ Create a union of high-satisfaction patients (> 90) and low-satisfaction patients (< 50).
+
+3️⃣ List all unique names from both patients and staff tables using UNION.
+
+🔥 Daily Challenge
+
+Create a comprehensive personnel & patient list showing:
+
+identifier (either patient_id or staff_id)
+
+full name
+
+type ('Patient' or 'Staff')
+
+associated service
+
+Include only those in the 'surgery' or 'emergency' services.
+Order results by:
+
+type
+
+service
+
+name
+
+🏁 Today's Reflection
+
+Today, I explored how UNION and UNION ALL can merge data from different tables into one unified output.
+This was especially helpful for combining patient and staff lists, creating category-based outputs, and building mixed reports.
+Understanding when to keep duplicates (UNION ALL) vs remove them (UNION) is essential for accurate data analysis.
+
+📚 Progress Tracker
+
+✅ Day 18 Completed – UNION & Set-Based Query Mastery
+🔜 Next Up: Window Functions, Ranking, and Analytics Functions
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 ---
+
 
 
 ## How to Use This Repository
