@@ -735,6 +735,56 @@ Understanding when to keep duplicates (UNION ALL) vs remove them (UNION) is esse
 
 ---
 
+📅 Day 20: Running Totals, Moving Averages & Window-Based Trend Analysis
+Topics Covered:
+
+Calculating running totals using SUM() OVER
+
+Creating moving averages using AVG() OVER
+
+Understanding window frames like
+ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+
+Performing trend analysis over time
+
+Comparing current values against service-level averages
+
+🧩 Practice Questions Solved
+1️⃣ Calculate running total of patients admitted by week for each service.
+2️⃣ Compute a 4-week moving average of patient satisfaction.
+3️⃣ Display cumulative patient refusals across all services by week.
+🔥 Daily Challenge
+
+Create a trend analysis showing for each service and week:
+
+Week number
+
+Patients admitted
+
+Running total of admissions
+
+3-week moving average of satisfaction
+
+Difference between current week admissions and service average
+
+Filter for weeks 10–20 only
+
+This challenge combines window functions, moving averages, and inline comparison, making it a powerful real-world analytical task.
+
+🏁 Today's Reflection
+
+Today was all about understanding how window functions can look “across rows” while still keeping each row intact.
+Features like running totals and moving averages are essential for building dashboards, monitoring weekly performance, and understanding long-term trends.
+
+Mastering window functions gives you next-level analytical power in SQL.
+
+📚 Progress Tracker
+
+✅ Day 20 Completed – Window Function Trend Analysis
+🔜 Next Up: Advanced Ranking & Partitioned Analytics (Day 21)
+
+---
+
 **#SQL #21DaysChallenge #LearningJourney #DataAnalytics #IndianDataClub**
 
 ---
