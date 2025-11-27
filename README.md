@@ -861,6 +861,121 @@ This is a huge step toward analytical SQL and BI-level querying.
 
 ---
 
+📅 Day 20: Running Totals, Moving Averages & Window-Based Trend Analysis
+Topics Covered:
+
+Calculating running totals using SUM() OVER
+
+Creating moving averages using AVG() OVER
+
+Understanding window frames like
+ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+
+Performing trend analysis over time
+
+Comparing current values against service-level averages
+
+🧩 Practice Questions Solved
+1️⃣ Calculate running total of patients admitted by week for each service.
+2️⃣ Compute a 4-week moving average of patient satisfaction.
+3️⃣ Display cumulative patient refusals across all services by week.
+🔥 Daily Challenge
+
+Create a trend analysis showing for each service and week:
+
+Week number
+
+Patients admitted
+
+Running total of admissions
+
+3-week moving average of satisfaction
+
+Difference between current week admissions and service average
+
+Filter for weeks 10–20 only
+
+This challenge combines window functions, moving averages, and inline comparison, making it a powerful real-world analytical task.
+
+🏁 Today's Reflection
+
+Today was all about understanding how window functions can look “across rows” while still keeping each row intact.
+Features like running totals and moving averages are essential for building dashboards, monitoring weekly performance, and understanding long-term trends.
+
+Mastering window functions gives you next-level analytical power in SQL.
+
+📚 Progress Tracker
+
+✅ Day 20 Completed – Window Function Trend Analysis
+🔜 Next Up: Advanced Ranking & Partitioned Analytics (Day 21)
+---
+
+📅 Day 21: CTEs, Multi-Step Queries & Performance Dashboards
+Topics Covered:
+
+Using the WITH clause for cleaner, modular SQL
+
+Building multiple CTEs to break down complex logic
+
+Joining CTEs to create multi-layered analytical reports
+
+Organizing queries for readability & scalability
+
+(Optional) Intro to recursive CTEs for hierarchical data
+
+🧩 Practice Questions Solved
+1️⃣ Use a CTE to simplify a multi-step computation.
+2️⃣ Use multiple CTEs to break down a complex query into logical parts.
+3️⃣ Build a CTE for staff utilization and join it with patient data.
+🔥 Daily Challenge
+
+Create a comprehensive hospital performance dashboard using CTEs:
+
+Your dashboard should calculate:
+
+1️⃣ Service-level metrics
+
+Total patients admitted
+
+Total patients refused
+
+Average patient satisfaction
+
+2️⃣ Staff metrics per service
+
+Total staff count
+
+Average weeks present
+
+3️⃣ Patient demographics per service
+
+Average patient age
+
+Total patient count
+
+Then combine all three CTEs into a final unified report showing:
+
+Service name
+
+All calculated metrics
+
+An overall performance score (weighted average of admission rate + satisfaction)
+
+Order the final output by performance score descending.
+
+🏁 Today's Reflection
+
+Today I learned how powerful CTEs are in breaking down complicated SQL tasks into manageable parts.
+By organizing queries into logical layers, I can now build dashboards, multi-step analytics, and readable queries that would otherwise be overwhelming.
+CTEs have become one of my favorite SQL tools for real-world reporting.
+
+📚 Progress Tracker
+
+✅ Day 21 Completed – CTE Mastery for Real-World Analytics
+🎉 21 Days of SQL Challenge Successfully Completed!
+
+---
+
 ## How to Use This Repository
 - Follow each day's folder or file for the respective SQL problems and solutions.
 - Review my notes and explanations alongside the SQL queries.
